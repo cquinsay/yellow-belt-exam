@@ -1,0 +1,146 @@
+* {
+	margin: 0;
+    padding: 0;
+    /*outline: 1px solid red;*/
+}    
+.wrapper{
+    width: 900px;
+    background-color: rgb(11, 29, 44);
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+.title{
+    display: inline-flex;
+    margin: 0px 165px 0px 15px;
+
+}
+#james{
+    color: white;
+    font-weight: normal;
+    margin: 5px;
+}
+#consulting{
+    color: rgb(29, 131, 248);
+    font-weight: normal;
+    margin: 5px;
+}
+.menu-bar{
+    width: auto;
+}
+li{
+    display: inline-flex;
+}
+.menu-bar a{
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 15px;
+}
+#home{
+    color:rgb(38, 66, 97);
+}
+.main-content{
+    background-color: white;
+    width: 870px;
+    padding: 15px;
+}
+.main-content img{
+    width: 870px;
+}
+.info-box p{
+    margin: 10px 0px 2px;
+    height: 100px;
+    font-size: 10px;
+} 
+.info-box{
+    width: 250px;
+    height: 175px;
+    margin-top: 15px;
+    color: white;
+    background-color: rgb(12, 106, 168);
+    padding: 15px;
+    display: inline-block;
+}
+.spacing{
+    margin-right: 10px;
+}
+.info-box img{
+    width: 30px;
+    padding: 1px;
+    
+}
+.info-box h3{
+    display: inline-block;
+    vertical-align: top;
+    padding: 2px;
+    font-weight: normal;
+}
+button{
+    padding: 5px 20px;
+    color: white;
+    border-radius: 8px;
+    background-image: linear-gradient(to bottom, rgb(4, 148, 243) 50%, rgb(44, 128, 224) 10px);
+}
+.closing-box{
+    width: 250px;
+    height: 175px;
+    margin-top: 15px;
+    padding: 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+.closing-box p{
+    font-size: 10px;
+}
+.closing-box h3{
+    font-weight: normal;
+    padding: 10px 0px 10px 0px;
+}
+.closing-box img{
+    width: 250px;
+}
+.learn-more{
+    padding-top: 60px;
+    height: 130px;
+}
+.learn-more p{
+    margin-bottom: 15px;
+}
+.learn-more a{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(21, 99, 214);
+}
+#quote{
+    background-color: rgb(163, 204, 238);
+    padding: 20px 20px 40px 20px;
+    font-size: 12px;
+    font-style: italic;
+}
+#samantha{
+    margin-top: 20px;
+}
+.footer{
+    background-color: rgb(163, 204, 238);
+    width: 900px;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid black;
+}
+.footer a{
+    text-decoration: none;
+    color: rgb(33, 64, 129);
+    margin-right: 20px;
+    font-size: 10px;
+}
+#footer-home{
+    color: rgb(107, 151, 180)
+}
